@@ -1,0 +1,634 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Chilanka;
+    margin: 0;
+}
+
+.Cloting {
+    height: 623px;
+}
+
+.menu-list {
+    display: none;
+}
+
+.menu-list.active {
+    display: block;
+}
+
+.Burger-menu {
+    display: inline-block;
+    cursor: pointer;
+    width: 45px;
+    outline: none;
+}
+
+.Burger-btn {
+    display: none;
+}
+
+.Burger-menu:link {
+    position: absolute;
+    width: 100%;
+}
+
+.Burger-btn:active {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #41403e;
+    top: auto;
+    font-size: 20px;
+
+}
+
+.menu-list.list-nav--active {
+    transform: translate(-500px);
+}
+
+/* Мобільні пристрої (розмір екрану менше 768px) */
+@media only screen and (max-width: 768px) {
+
+    /* CSS для мобільних пристроїв */
+    .container {
+        max-width: 100%;
+        transition: all 0.9s;
+    }
+
+    .row-product {
+        height: max-content !important;
+    }
+
+    .Burger-btn {
+        display: block !important;
+        transition: all 0.9s;
+    }
+
+    .center-media-phone {
+        display: flex;
+        justify-content: center;
+        transition: all 0.9s;
+    }
+
+    .row-max {
+        max-width: 100% !important;
+        transition: all 0.9s;
+    }
+
+    .Foodies {
+        max-height: 100%;
+        max-width: 100%;
+        transition: all 0.9s;
+    }
+
+    .Cloting {
+        height: 2000px !important;
+        transition: all 0.9s;
+    }
+
+    .row-product {
+        height: max-content !important;
+        transition: all 0.9s;
+    }
+
+    .img-wrapper {
+        max-width: 100% !important;
+        transition: all 0.9s;
+    }
+
+    .cloting-text {
+        font-size: 30px !important;
+        transition: all 0.9s;
+    }
+
+    .row-product {
+        justify-content: center !important;
+        transition: all 0.9s;
+    }
+
+    .Banner {
+        height: 1015px !important;
+        transition: all 0.9s;
+    }
+
+    .text-block {
+        max-width: 100% !important;
+        font-size: 30px !important;
+        transition: all 0.9s;
+    }
+
+    nav {
+        width: 100%;
+        transition: all 0.9s;
+    }
+
+    .banner-block {
+        max-width: 100% !important;
+        margin-top: 0px !important;
+        transition: all 0.9s;
+    }
+
+    .row-mobile {
+        justify-content: center !important;
+        transition: all 0.9s;
+    }
+
+    .banner-img {
+        max-width: 100% !important;
+        height: 469px !important;
+        transition: all 0.9s;
+    }
+
+    .products-card {
+        display: block !important;
+        transition: all 0.9s;
+
+    }
+
+    .Max {
+        max-width: 100% !important;
+        height: auto;
+        transition: all 0.9s;
+    }
+
+    .row {
+        max-width: 100% !important;
+        transition: all 0.9s;
+    }
+
+    .rowwing {
+        display: block !important;
+        transition: all 0.9s;
+    }
+
+    select,
+    .list-nav,
+    .col-1,
+    .col-2 {
+        display: none !important;
+        transition: all 0.9;
+    }
+}
+
+/* Планшетні пристрої (розмір екрану від 768px до 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS для планшетних пристроїв */
+    .container {
+        max-width: 100% !important;
+        margin: 0 auto;
+    }
+    .Banner {
+        max-width: 100%;
+        height: max-content!important;
+    }
+
+    .row-products {
+        max-width: 100%;
+    }
+
+    .row-product {
+        height: max-content !important;
+    }
+
+    .product-card {
+        max-width: 100%;
+    }
+
+    .Max {
+        max-width: 100%;
+        width: 600px;
+        transition: all 0.9s;
+        height: auto;
+    }
+
+    .row {
+        justify-content: space-evenly !important;
+        max-width: 100% !important;
+        transition: all 0.9s;
+    }
+
+    select,
+    .list-nav,
+    .col-1,
+    .col-2 {
+        display: none !important;
+    }
+}
+
+/* Десктопні пристрої (розмір екрану більше 1024px) */
+@media only screen and (min-width: 1024px) {
+    /* CSS для десктопних пристроїв */
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Chilanka;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 100%;
+    padding: 8px 12px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con-1 {
+    height: 120px;
+}
+
+.con-2 {
+    height: 65px;
+}
+
+header {
+    height: 190px;
+}
+
+.row {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.search-bar {
+    width: 526px;
+    height: 60px;
+    border: 1px solid #eaeaea;
+    border-radius: 0.375rem;
+    padding: 0px 16px;
+}
+
+.img-search {
+    position: relative;
+    top: -37px;
+    left: 450px;
+}
+
+.search-form {
+    width: 492px;
+    height: 58px;
+}
+
+.input-box {
+    line-height: normal;
+    color: #908F8D;
+    letter-spacing: 0.02125rem;
+    text-transform: capitalize;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(65, 64, 62, 0.20);
+    background: #FFF;
+    display: flex;
+    width: 469px;
+    height: 58px;
+    align-items: center;
+    gap: 0.375rem;
+    align-self: stretch;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    font-family: Chilanka;
+    font-size: 20px;
+}
+
+.T-1 {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.S-1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 0px 12px;
+    align-items: center;
+}
+
+.Main-menu {
+    padding: 8px 0px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.option-select {
+    width: 150px;
+    height: 48px;
+    outline: none;
+    background: #eaeaea;
+    font-family: Chilanka;
+    font-size: 15px;
+    margin: 0px 48px 0px 0px;
+    border: 0;
+}
+
+.list-nav {
+    display: flex;
+    gap: 1rem;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.list-nav-2 {
+    display: flex;
+    gap: 1rem;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(65, 64, 62);
+}
+
+li {
+    list-style: none;
+}
+
+.a-list {
+    padding: 8px;
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+
+.list-icon {
+    display: flex;
+}
+
+.Banner {
+    background: #F9F3EC;
+    height: 754px;
+}
+
+.min-0 {
+    margin: 0px;
+    border-bottom: solid 1px #908F8D;
+}
+
+.Max {
+    height: auto;
+}
+
+.banner-img {
+    width: 550px;
+    height: 658px;
+    padding: 0px 12px;
+}
+
+.rowwing {
+    display: flex;
+}
+
+.banner-text {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 0px 0px 24px;
+}
+
+.text-primary {
+    color: rgb(222, 173, 111);
+}
+
+.text-block {
+    font-size: 80px;
+    margin: 0px 0px 8px;
+    width: 674px;
+}
+
+.banner-block {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 460px;
+    margin-top: 130px;
+    margin-bottom: 48px;
+}
+
+.btn-control {
+    transition: all 0.3s ease-in;
+    padding: 19px 48px;
+    width: 197px;
+    font-size: 1rem;
+    border: 1px solid #41403e;
+    border-radius: 5px;
+}
+
+.btn-control:hover {
+    background-color: #41403e;
+    color: white;
+}
+
+.svg-min:hover {
+    fill: #FFF;
+    color: #FFF;
+}
+
+.col-item {
+    padding: 0px 12px;
+    text-align: center;
+    width: 156px;
+}
+
+.Cloting {
+    margin-top: 50px;
+}
+
+.cloting-text {
+    font-size: 55px;
+    margin: 0px 0px 8px;
+}
+
+.text-a {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 15px;
+}
+
+.svg-stick {
+    margin-bottom: 4px;
+}
+
+.font-28 {
+    font-size: 28px;
+    margin: 0px;
+    padding: 24px 0px 0px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.svg-15px {
+    width: 15px;
+    height: 14px;
+}
+
+.text-0 {
+    padding: 0px;
+    margin: 0px 0px 8px;
+}
+
+.card-btn {
+    width: 301px;
+    height: 58px;
+    display: flex;
+}
+
+.btn-card {
+    border: 1px solid rgba(65, 64, 62, 0.20);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 182px;
+    margin: 0px 16px 0px 0px;
+    border-radius: 2px;
+}
+
+.h5-0 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.text-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-heald {
+    padding: 16px 24px 0px;
+    border-radius: 2px;
+    border: 1px solid rgba(65, 64, 62, 0.20);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.rowwing-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 16px;
+}
+
+.radius-img {
+    border-radius: 5px;
+}
+
+.Foodies {
+    margin: 48px 0px;
+}
+
+.a-item {
+    font-size: 18px;
+    border-bottom: 1px solid #908F8D;
+}
+
+.row-product {
+    position: relative;
+}
+
+.Dog-item {
+    height: 478px;
+    width: 330px;
+    padding: 0px 12px;
+    margin: 24px 0px;
+}
+
+.Cat-item {
+    height: 478px;
+    padding: 0px 12px;
+    margin: 24px 0px;
+    width: 330px;
+}
+
+.Bird-item {
+    height: 474px;
+    padding: 0px 12px;
+    margin: 24px 0px;
+    width: 330px;
+}
+
+.card {
+    border: none;
+}
+
+.Banner-2 {
+    margin: 16px 0px;
+}
+
+.img-banner-2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.font {
+    font-size: 24px;
+    margin: 0px 0px 16px;
+}
+
+.img-wrapper {
+    padding: 0px 12px;
+}
+
+.Banner-2 {
+    background: #f9f3ec;
+    height: 763px;
+
+    .row {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        justify-content: center;
+    }
+}
+
+.product-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
